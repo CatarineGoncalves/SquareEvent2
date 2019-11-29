@@ -13,20 +13,42 @@
     <header>
     </header>
     <main class="main-crieseuevento">
+
+
         <div class="formulario div-um">
-            <img src="./img/panel.png" class="squareevents"
+            <img src="./img/panel (1).png" class="squareevents"
                 alt="imagem de uma placa de madeira que é o simbolo da pagina">
             <h1 class="registro">Crie seu Evento</h1>
 
 
             <div class="father-div">
-                
+
                 <div class="textinput-crieseuevento">
 
-                    <p class="titulo-nome">Nome do Evento: </p>
-                    <form class="form-botao" action="#">
-                        <input type="text" class="botao-um">
-                    </form>
+
+                    <div class="">
+                        <p class="titulo-nome1">Nome do Evento: </p>
+                        <form class="form-botao" action="#">
+                            <input type="text" class="botao-um">
+                        </form>
+                    </div>
+
+                    <div class="datetime-crieseuevento">
+
+                        <p class="titulo-nome4">Data</p>
+
+                        <form class="form-data" action="#">
+                            <input type="date">
+                        </form>
+
+                        <p class="titulo-nome4">Hora</p>
+
+                        <select name="hora-crieseuevento">
+                            <option value="setehoras">19h</option>
+                            <option value="oitohoras">20h</option>
+                        </select>
+
+                    </div>
 
                     <p class="titulo-nome2">Nome do Responsavel da Comunidade: </p>
                     <form class="form-botao" action="#">
@@ -37,24 +59,66 @@
                     <form class="form-botao" action="#">
                         <input type="text" class="botao-um">
                     </form>
-                </div>
 
-                <div class="datetime-crieseuevento">
-
-                    <p class="titulo-nome">Data</p>
-
-                    <form class="form-data" action="#">
-                        <input type="date">
+                    <p class="titulo-nome5">Contato </p>
+                    <form class="form-botao" action="#">
+                        <input type="number" class="botao-um">
                     </form>
 
-                    <p class="titulo-nome">Hora</p>
-
-                    <select name="hora-crieseuevento">
-                        <option value="setehoras">19h</option>
-                        <option value="oitohoras">20h</option>
-                    </select>
-
                 </div>
+
+                <h2 class="registro">Detalhes do Evento</h1>
+
+                    <div class="formulario div-três">
+
+                        <div class="salas-eventos">
+                            <p class="titulo-nome5">Salas: </p>
+
+                            <form class="form-botao" action="#">
+                                <input type="number" class="botao-um">
+                            </form>
+                        </div>
+
+                        <div class="botoes-evento">
+                            <p class="titulo-nome6">Interprete de libras? </p>
+
+                            <div id="app-cover">
+                                <div class="row">
+                                    <div class="toggle-button-cover">
+                                        <div class="button-cover">
+                                            <div class="button r" id="button-1">
+                                                <input type="checkbox" class="checkbox">
+                                                <div class="knobs"></div>
+                                                <div class="layer"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="botoes-evento">
+                                <p class="titulo-nome7">Interprete de libras? </p>
+    
+                                <div id="app-cover">
+                                    <div class="row">
+                                        <div class="toggle-button-cover">
+                                            <div class="button-cover">
+                                                <div class="button r" id="button-1">
+                                                    <input type="checkbox" class="checkbox">
+                                                    <div class="knobs"></div>
+                                                    <div class="layer"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+
+
+
+                    </div>
 
 
 
@@ -62,7 +126,7 @@
 
         </div>
 
-        <div class="formulario div-dois">
+        <div class="div-tres">
             <img src="./img/francesco-ciccolella-7.png" class="banner-1" alt="">
         </div>
     </main>
