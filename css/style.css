@@ -1,87 +1,86 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-*{
+* {
     margin: auto;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
-
-.squareevents{
+.squareevents {
     width: 4em;
     margin-top: 4em;
     margin-bottom: 2em;
 }
 
-.main-crieseuevento{
+.main-crieseuevento {
     display: flex;
     width: 77vw;
     height: 91vh;
     z-index: 1;
 }
 
-.div-um{
+.div-um {
     width: 40vw;
     height: 200vh;
     z-index: 2;
 }
 
-.div-tres{
+.div-tres {
     width: 35vw;
     height: 90vh;
     z-index: 2;
 }
 
-.registro{
+.registro {
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
-
-.titulo-nome1{
+.titulo-nome1 {
     color: grey;
     font-size: 1em;
 }
 
-.titulo-nome2{
+.titulo-nome2 {
     color: grey;
     margin-top: 3em;
     font-size: 1em;
 }
 
-.titulo-nome3{ 
-    color:grey;
+.titulo-nome3 {
+    color: grey;
     margin-top: 3em;
     font-size: 1em;
 }
 
-.titulo-nome4{
+.titulo-nome4 {
     margin-right: 3em;
 }
 
-.titulo-nome5{
-    color:grey;
-    margin-top: 3em;
-    font-size: 1em;
-}
-.titulo-nome6{
-    color:grey;
-    margin-top: 3em;
-    font-size: 1em;
-}
-.titulo-nome7{
-    color:grey;
-    margin-top: 3em;
-    font-size: 1em;
-}
-.titulo-nome8{
-    color:grey;
+.titulo-nome5 {
+    color: grey;
     margin-top: 3em;
     font-size: 1em;
 }
 
+.titulo-nome6 {
+    color: grey;
+    margin-top: 3em;
+    font-size: 1em;
+}
 
+.titulo-nome7 {
+    color: grey;
+    margin-top: 0em;
+    font-size: 1em;
+}
 
-.botao-um{
+.titulo-nome8 {
+    color: grey;
+    margin-top: 3em;
+    font-size: 1em;
+}
+
+.botao-um {
     margin-top: 1em;
     background: none;
     border: none;
@@ -90,38 +89,39 @@
     width: 32vw;
 }
 
-.banner-1{
+.banner-1 {
     width: 40vw;
     height: 100vh;
-    position:fixed;
+    position: fixed;
 }
 
-.datetime-crieseuevento{
-    color:#008894;
-    display:flex;
+.datetime-crieseuevento {
+    color: #008894;
+    display: flex;
     margin-top: 2em;
     margin-right: 22em;
 }
 
-.form-data{
+.form-data {
     margin-right: 5em;
 }
+
+
 /* conf do botão */
-#app-cover{
+
+#app-cover {
     margin-top: -2em;
 }
 
-.row
-{
+.row {
     display: table-row;
 }
 
-.toggle-button-cover
-{
+.toggle-button-cover {
     display: table-cell;
     position: relative;
-    width: 200px;
-    height: 140px;
+    /* width: 15em; */
+    height: 8em;
     box-sizing: border-box;
 }
 
@@ -139,8 +139,9 @@
     padding: 5px;
 } */
 
-.button-cover, .knobs, .layer
-{
+.button-cover,
+.knobs,
+.layer {
     position: absolute;
     top: 0;
     right: 10em;
@@ -148,8 +149,7 @@
     left: 0;
 }
 
-.button
-{
+.button {
     position: relative;
     top: 50%;
     width: 74px;
@@ -158,18 +158,16 @@
     overflow: hidden;
 }
 
-.button.r, .button.r .layer
-{
+.button.r,
+.button.r .layer {
     border-radius: 100px;
 }
 
-.button.b2
-{
+.button.b2 {
     border-radius: 2px;
 }
 
-.checkbox
-{
+.checkbox {
     position: relative;
     width: 100%;
     height: 100%;
@@ -180,22 +178,21 @@
     z-index: 3;
 }
 
-.knobs
-{
+.knobs {
     z-index: 2;
 }
 
-.layer
-{
+.layer {
     width: 100%;
     background-color: #ebf7fc;
     transition: 0.3s ease all;
     z-index: 1;
 }
 
+
 /* Button 1 */
-#button-1 .knobs:before
-{
+
+#button-1 .knobs:before {
     content: 'SIM';
     position: absolute;
     top: 4px;
@@ -213,23 +210,26 @@
     transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
 }
 
-#button-1 .checkbox:checked + .knobs:before
-{
+#button-1 .checkbox:checked+.knobs:before {
     content: 'NÃO';
     left: 42px;
     background-color: #f44336;
 }
 
-#button-1 .checkbox:checked ~ .layer
-{
+#button-1 .checkbox:checked~.layer {
     background-color: #fcebeb;
 }
 
-#button-1 .knobs, #button-1 .knobs:before, #button-1 .layer
-{
+#button-1 .knobs,
+#button-1 .knobs:before,
+#button-1 .layer {
     transition: 0.3s ease all;
 }
 
-.buttons-style{
+.buttons-style {
     background-color: red;
+}
+
+.botoes-evento {
+    margin-top: 1em;
 }
