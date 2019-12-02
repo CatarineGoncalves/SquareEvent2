@@ -28,6 +28,7 @@
     width: 35vw;
     height: 90vh;
     z-index: 2;
+
 }
 
 .registro {
@@ -79,6 +80,17 @@
     margin-top: 3em;
     font-size: 1em;
 }
+.titulo-nome9 {
+    color: grey;
+    margin-top: 2em;
+    font-size: 1em;
+
+}
+.titulo-nome10{
+    color: grey;
+    margin-top: 3em;
+    font-size: 1em;
+}
 
 .botao-um {
     margin-top: 1em;
@@ -90,9 +102,10 @@
 }
 
 .banner-1 {
-    width: 40vw;
-    height: 100vh;
+    width: 46vw;
+    height: 103vh;
     position: fixed;
+    margin-top: -1em;
 }
 
 .datetime-crieseuevento {
@@ -106,11 +119,27 @@
     margin-right: 5em;
 }
 
+/* .poligono-evento{
+    clip-path: polygon(78% 0, 94% 0, 13% 100%, 0% 100%);
+    background-color: red;
+    height: 10em;
+    width: 20em;
+} */
+
+
+
+
+
+
+
+
+
 
 /* conf do botão */
 
 #app-cover {
     margin-top: -2em;
+    margin-bottom: -2em;
 }
 
 .row {
